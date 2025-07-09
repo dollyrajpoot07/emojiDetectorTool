@@ -1,0 +1,54 @@
+.container {
+  max-width: 700px;
+  margin: 2.5rem auto;
+  padding: 2rem;
+  background: #fff9e6;
+  border: 2px dashed #ffcc80;
+  border-radius: 12px;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.container h2 {
+  text-align: center;
+  color: #ff6f00;
+  margin-bottom: 1rem;
+}
+
+.container textarea {
+  width: 96%;
+  padding: 1rem;
+  font-size: 1.1rem;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  resize: vertical;
+  background: #fffbe6;
+}
+
+.resultBox {
+  margin-top: 1.5rem;
+  background: #fff3cd;
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  border-left: 6px solid #ffa000;
+  color: #333;
+}
+
+.resultBox p {
+  margin: 0.5rem 0;
+}
+
+.resultBox button {
+  margin-top: 1rem;
+  padding: 0.6rem 1rem;
+  font-size: 1rem;
+  background: #ff9800;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.resultBox button:hover {
+  background: #f57c00;
+}
